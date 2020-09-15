@@ -1,2 +1,2 @@
-# sesion4-resolucion-tarea
+# sesion6-resolucion-tarea
 Resolucion de tareas
