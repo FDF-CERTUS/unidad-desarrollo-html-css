@@ -14,6 +14,10 @@ Desarrollar interfaces de usuario de aplicaciones para plataformas web y móvile
 
 - **SESIÓN 6:**  Implementación del Framework de CSS Bootstrap.
 
+- **SESIÓN 12:**  Implementación del Catálogo de Productos, formulario de inicio de sesión y registro de datos personales.
+
+- **SESIÓN 14:**  Implementación del carrito de compras.
+
 
 
 
