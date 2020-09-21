@@ -26,6 +26,7 @@ Desarrollar interfaces de usuario de aplicaciones para plataformas web y móvile
 
 - **SESIÓN 16:**  Implementación del carrito de compras y proceso de checkout
 
+- **SESIÓN 18:**  Implementación de Back Office (Registro de productos y gestión de stock).
 
 
 
