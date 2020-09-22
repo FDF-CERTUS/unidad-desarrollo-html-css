@@ -6,6 +6,12 @@ Desarrollar interfaces de usuario de aplicaciones para plataformas web y móvile
 
  ![Frontend Developer Fundamentals](https://www.certus.edu.pe/wp-content/uploads/2020/08/front-end-developer.jpg)
 
+#### Profesores
+
+- **Alvi Ganoza Richard Nick**
+  
+- **Montoya Ventocilla Omar Anthony**
+
 #### Contenido
 
 - **SESIÓN 2:**  Extensiones de Visual Studio Code y atajos de teclado.
@@ -16,7 +22,9 @@ Desarrollar interfaces de usuario de aplicaciones para plataformas web y móvile
 
 - **SESIÓN 12:**  Implementación del Catálogo de Productos, formulario de inicio de sesión y registro de datos personales.
 
-- **SESIÓN 14:**  Implementación del carrito de compras.
+- **SESIÓN 14:**  Video del carrito de compras  
+
+- **SESIÓN 16:**  Implementación del carrito de compras y proceso de checkout
 
 
 
