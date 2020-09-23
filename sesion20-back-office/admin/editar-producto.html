@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Editar Producto | Admin</title>
+</head>
+<body>
+    <nav class="navbar navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">CertusShop</a>
+        <button class="navbar-toggler d-md-none collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="navbarNav" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse border-right">
+                <div class="sidebar-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item text-center">
+                            <img src="data:image/jpeg;base64,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" 
+                            width="90px;" height="auto;" class="rounded-circle">
+                            <p>Admin</p>
+                            <a href="login-admin.html"><i class="fa fa-sign-out"></i> Cerrar sesión</a>
+                        </li>
+                    </ul>
+                    <ul class="nav flex-column nav-pills">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-home"></i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                                <i class="fa fa-shopping-cart"></i>
+                                Productos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-truck"></i>
+                                Pedidos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-wrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h5>Editar Producto</h5>
+                    <a href="admin-page.html" class="btn btn-secondary float-right"><i class="fa fa-caret-left"></i> Retornar</a>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCodigo">Código</label>
+                            <input type="text" class="form-control" id="inputCodigo" value="000004" readonly>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputModelo">Modelo</label>
+                            <input type="text" class="form-control" id="inputModelo" value="129202" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputProducto">Nombre Producto</label>
+                        <input type="text" class="form-control" id="inputProducto" value="POLO TIPO CUELLO" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDetalle">Detalle Producto</label>
+                        <input type="text" class="form-control" id="inputDetalle" value="Polo confeccionado en tejido de algodón con estructura piqué. Cuello mao 
+                        y manga corta acabada en rib. Bajo con aberturas laterales. Cierre frontal con botones." required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-2">
+                            <label for="inputPeso">Peso</label>
+                            <input type="number" class="form-control" id="inputPeso" value="3" required>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputMaterial">Material</label>
+                            <input type="text" class="form-control" id="inputMaterial" value="40% poliéster" required>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputTalla">Talla</label>
+                            <select id="inputTalla" class="form-control">
+                                <option selected>Seleccione la talla</option>
+                                <option  value="S">S</option>
+                                <option  value="M">M</option>
+                                <option  value="L">L</option>
+                                <option  value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputStock">Stock</label>
+                            <input type="number" class="form-control" id="inputStock" value="120" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputImagen">Imágen</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+                                <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+                              </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary float-right"><i class="fa fa-save"></i> Grabar</button>
+                </form>
+            </main>
+        </div>
+    </div>
+
+ 
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
