@@ -1,0 +1,84 @@
+//variables
+$heigth:auto
+$position-center:center
+@import 'fonts'
+@import 'sizes'
+
+.container
+   background-color: $black
+   width:$widthGeneral 
+   font-size: $fontSize
+   p
+      color: $white
+      margin: $margin
+      text-align: $position-center
+      span
+         color: $red
+          
+.box
+   height: $heigth
+   a
+      color: $blue
+      text-decoration: none
+      &:hover
+         color: $black
+
+
+.box_uno
+   background-color:$yellow
+   width: $withDiv / 2
+  
+
+.box_dos
+   background-color:$grey
+   width: $withDiv - 25 
+  
+
+.box_tres
+   background-color:$yellow
+   width: $withDiv / 3
+  
+
+.box_cuatro
+   background-color:$grey
+   width: $withDiv
+
+//SECCION -BOTONES --USANDO MIXINS
+.container-button
+   background-color: $grey
+
+// @mixin boton
+//    font-size: $fontSize
+//    border: none
+//    cursor: pointer
+//    border-radius: 3px
+//    padding: .5em .8em
+
+
+
+// .boton-principal
+//    background-color: $green
+//    @include boton
+
+// .boton-secundario
+//    background-color: $grey-light
+//    @include boton
+
+//SECCION BOTONES --USANDO HERENCIA
+
+.boton
+   font-size: $fontSize
+   border: none
+   cursor: pointer
+   border-radius: 3px
+   padding: .5em .8em
+
+.boton-principal
+   background-color: $green
+   @extend  .boton
+
+.boton-secundario
+   background-color: $grey-light
+   @extend  .boton
+
+
