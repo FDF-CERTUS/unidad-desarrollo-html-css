@@ -1,0 +1,132 @@
+$height:auto
+$margen:0
+$position:center
+@import 'fonts' 
+@import 'sizes'
+
+.container
+   width: $widthGeneral
+   background-color:$black
+   font-size: $fontSize
+   p
+      color: $white
+      margin: $margen
+      text-align: $position
+      span
+         color: $red
+   
+.box
+   height: $height
+   a
+      color: $blue
+      text-decoration: none
+      &:hover
+         color: $black
+   
+.box_uno
+   background-color: $yellow
+   width: $widthDiv/2
+   
+.box_dos
+   background-color: $grey
+   width: $widthDiv - 25
+   
+.box_tres
+   background-color: $yellow
+   width: $widthDiv/3
+   
+.box_cuatro
+   background-color: $grey
+   width: $widthDiv/2
+
+//CONTENEDOR 2 - USANDO MIXIN
+.container-button
+   background: $grey
+
+// @mixin boton
+//    font-size: $fontSize
+//    border: none
+//    cursor: pointer
+//    border-radius: 3px
+//    padding: .5em .8em
+
+// .boton-principal
+//    background: $green
+//    @include boton
+
+// .boton-secundario
+//    background: $grey-ligth
+//    @include boton
+
+
+//CONTENEDOR 2 - USANDO HERENCIA
+.boton
+   font-size: $fontSize
+   border: none
+   cursor: pointer
+   border-radius: 3px
+   padding: .5em .8em
+
+.boton-principal
+   background: $green
+   @extend .boton
+
+.boton-secundario
+   background: $grey-ligth
+   @extend .boton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .box_uno
+//    background-color: $yellow
+//    height: $height
+//    width: $widthDiv/2
+//    a
+//       color: $blue
+//       text-decoration: none
+//       &:hover
+//          color: $black
+      
+
+// .box_dos
+//    background-color: $grey
+//    height: $height
+//    width: $widthDiv - 25
+//    a
+//       color: $blue
+//       text-decoration: none
+//       &:hover
+//          color: $black
+
+// .box_tres
+//    background-color: $yellow
+//    height: $height
+//    width: $widthDiv/3
+//    a
+//       color: $blue
+//       text-decoration: none
+//       &:hover
+//          color: $black
+
+// .box_cuatro
+//    background-color: $grey
+//    height: $height
+//    width: $widthDiv
+//    a
+//       color: $blue
+//       text-decoration: none
+//       &:hover
+//          color: $black
