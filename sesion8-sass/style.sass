@@ -1,0 +1,82 @@
+
+$position-center:center
+@import 'fonts'
+@import 'sizes'
+
+.container
+   background-color: $black
+   width: $widthGeneral
+   font-size: $fontSize
+   p
+      color: $black
+      margin:$margin
+      text-align: $position-center
+      span
+         color: $red
+
+
+.box
+   height: $heigth
+   a
+      color: $blue
+      &:hover
+         color: $black
+
+.box_uno
+   background-color: $yellow
+   width: $widthDiv / 2
+  
+
+.box_dos
+   background-color: $grey
+   width: $widthDiv - 25
+  
+
+.box_tres
+   background-color: $yellow
+   width: $widthDiv / 3 
+  
+
+.box_cuatro
+   background-color: $grey
+   width: $widthDiv
+   
+
+.container-button
+   background-color: $grey
+
+//seccion mixin
+
+// @mixin boton
+//    font-size: $fontSize
+//    border: none
+//    cursor: pointer
+//    border-radius: 3px
+//    padding: .5em .8em
+
+// .container-principal
+//    background-color: $blue
+//    @include boton
+ 
+
+// .container-secuendario
+//    background-color: $red
+//    @include boton
+
+
+//seccion herencia
+.boton
+   font-size: $fontSize
+   border: none
+   cursor: pointer
+   border-radius: 3px
+   padding: .5em .8em
+
+
+.container-principal
+   background-color: $blue
+   @extend .boton
+
+.container-secuendario
+   background-color: $red
+   @extend .boton
