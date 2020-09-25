@@ -20,13 +20,17 @@ Desarrollar interfaces de usuario de aplicaciones para plataformas web y móvile
 
 - **SESIÓN 6:**  Implementación del Framework de CSS Bootstrap.
 
+- **SESIÓN 8:**  Implementación de Sass.
+
 - **SESIÓN 12:**  Implementación del Catálogo de Productos, formulario de inicio de sesión y registro de datos personales.
 
 - **SESIÓN 14:**  Video del carrito de compras  
 
 - **SESIÓN 16:**  Implementación del carrito de compras y proceso de checkout
 
-- **SESIÓN 18:**  Implementación de Back Office (Registro de productos y gestión de stock).
+- **SESIÓN 18:**  Implementación de Back Office Fase I - (Registro de productos y gestión de stock).
+
+- **SESIÓN 22:**  Implementación de Back Office Fase II - (gestión de pedidos y comunicación con Cliente).
 
 
 
