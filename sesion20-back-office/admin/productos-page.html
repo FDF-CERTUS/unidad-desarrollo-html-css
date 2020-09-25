@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Main | Admin</title>
+    <title>Producto | Admin</title>
 </head>
 <body>
     <header>
     <nav class="navbar navbar navbar-dark bg-primary">
         <a class="navbar-brand" href="#">CertusShop</a>
-        <button class="navbar-toggler d-md-none collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-md-none collapsed" 
+            type="button" 
+           data-toggle="collapse" 
+           data-target="#navbarNav" 
+           aria-controls="navbarNav" 
+           aria-expanded="false" 
+           >
           <span class="navbar-toggler-icon"></span>
         </button>
     </nav>
     </header>
-    <div class="container-fluid">
+    <main class="container-fluid">
         <div class="row">
-            <nav id="navbarNav" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse border-right">
-                <div class="sidebar-sticky pt-3">
+            <aside id="navbarNav" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse border-right">
+                <nav class="sidebar-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item text-center">
                             <img src="https://i.pinimg.com/originals/e7/52/e0/e752e07327f569ff30926e3f7c7d0f82.png" 
@@ -48,9 +54,9 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-            </nav>
-            <main class="col-md-9 ml-ms-auto col-lg-10 px-md-4">
+                </nav>
+            </aside>
+            <section class="col-md-9 ml-ms-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-wrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h5>Productos</h5>
                     <a href="nuevo-producto.html" class="btn btn-primary float-right" ><i class="fa fa-plus"></i> Nuevo Producto</a>
@@ -115,9 +121,9 @@
                     </div>
                 </div>
                 <!-- Fin producto dos -->
-            </main>
+            </section>
         </div>
-    </div>
+    </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
